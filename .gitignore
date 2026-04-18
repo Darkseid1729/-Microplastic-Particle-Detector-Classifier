@@ -15,6 +15,7 @@ Dataset/
 
 # Project Requirements & Prompts
 *.txt
+!requirements.txt
 existing_Notebook/
 
 # Project Reports & Documentation (LaTeX & Markdown)
