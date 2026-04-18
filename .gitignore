@@ -33,12 +33,13 @@ implementation_plan.md
 *.resolved
 
 # Generated Outputs (Keep your repo clean)
-outputs/
+# We exclude the thousands of images, but we ALLOW the models and metrics
+outputs/pipeline_stages/
+outputs/classified_images/
 classification_results/
 
-# Models
-*.pkl
-*.joblib
+# Models are now ALLOWED so the website can use them
+!outputs/models/*.pkl
 
 # OS generated files
 .DS_Store
