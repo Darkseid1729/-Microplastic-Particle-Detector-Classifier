@@ -1,0 +1,52 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Dataset (Too large for GitHub)
+Dataset/
+
+# Project Requirements & Prompts
+*.txt
+existing_Notebook/
+
+# Project Reports & Documentation (LaTeX & Markdown)
+*.tex
+*.pdf
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+report.md
+implementation_plan.md
+*.resolved
+
+# Generated Outputs (Keep your repo clean)
+outputs/
+classification_results/
+
+# Models
+*.pkl
+*.joblib
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
